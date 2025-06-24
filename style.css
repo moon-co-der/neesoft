@@ -1,0 +1,14 @@
+.logo>img{
+height:70px;
+width:50px;
+}
+
+.navbar{
+display:flex;
+position: sticky;
+top: 0px;}
+
+.f3{
+justify-content: flex-end;}
+
+<a href="#" class="link-secondary">Secondary link</a>
