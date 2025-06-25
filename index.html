@@ -1,99 +1,185 @@
 <head>
-<title>neesoft</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" 
-integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-<link rel="stylesheet" href="./style.css">
+    <title>neesoft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="logo" href="#"> <img src="./pic/logo.jpg"> </a>
-        <h1 class="display-4">Nee Software Solutions</h1>
-        <div class="f f3">   
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="logo" href="#"> <img src="./pic/logo.jpg"> </a>
+            <h1 class="display-5">Nee Software Solutions</h1>
+            <div class="f f3">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="icon-link icon-link-hover"
+                                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#aboutus">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-check" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                                    <path
+                                        d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
+                                </svg>
+                                <path
+                                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                <path
+                                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                </svg>
+                                About us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="icon-link icon-link-hover"
+                                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#tech">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z" />
+                                    <path
+                                        d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686" />
+                                </svg>
+                                <path
+                                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                                <path
+                                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                                </svg>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+
+    <!-- carousel -->
+    <div class="container">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./pic/pic1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./pic/pic2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./pic/pic3.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item" >
-                    <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
-                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
-                        <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"/>
-                        </svg>
-                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-                        </svg>
-                        About us
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
-                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z"/>
-                        <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686"/>
-                        </svg>
-                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
-                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
-                        </svg>
-                        Contact
-                    </a>
-                </li>
+            <!-- carsoul overlap -->
+            <div class="fitem2">
+                <h1>heading</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, saepe iste provident aliquam
+                    ratione corporis quibusdam voluptate sint repellendus! Magnam repudiandae, at odit sint provident
+                    similique eos quasi perspiciatis cupiditate!</p>
+            </div>
+            <div id="aboutus"></div>
+        </div>
+    </div>
+
+
+    <div class="para">
+        <div class="p-item">
+            <h1>About us</h1>
+            <div class="bar"></div>
+            <p>
+                Neesoft strives to produce innovative products and services that meet our customers' evolving needs. At
+                the same time, we understand long-term success is not just about one project, but an ongoing
+                relationship with our clients. The Neesoft team is dedicated to improving our clients' business
+                processes by ensuring successful business solutions.
+
+                Neesoft technical experts have earned top-notch certifications and utilize industry-leading products and
+                continuously updates team training to keep current in today's fast-paced technology arena.
+            <p id="tech">
+                Neesoft puts your project in the hands of industry professionals. In every area, dedication and
+                commitment allow us to deliver the best possible solution for your project. When you do business with
+                Neesoft , you gain an involved solutions partner, not a one-time service provider.</p>
+            </p>
+            </p>
+        </div>
+
+
+        <div class="p-item">
+            <h1>Technologies</h1>
+            <div class="bar"></div>
+            The guiding philosophy for Neesoft success is passion for Technology and understanding customer's needs.
+            Our technology-centric approach allows us to focus on solutions and provide the apt technology to cater
+            to customers business needs.<br>
+            The list of technologies which our employees applied to carry out projects is adduced below</p>
+            <h4>Operational systems:</h4>
+            <ul>
+                <li>Windows 98 / Me / NT / 2000 / XP</li>
+                <li>FreeBSD</li>
+                <li>MacOS</li>
+                <li>Linux</li>
             </ul>
+            <h4>Databases:</h4>
+            <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Microsoft SQL Server</li>
+                <li>Oracle</li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="p-item">
+            <h1>services</h1>
+            <div class="bar"></div>
+            <p>Neesoft provides clients with a single source for strategic consulting, project management and custom
+                development. We specialize in turnkey software development including definition, prototyping, designing,
+                programming, testing, installation, documentation and maintenance. We strive to offer clients flexible,
+                scalable solutions that best meet their business requirements and specifications.
+                <br>
+                Neesoft business models reflect the same spirit of flexibility and individually tailored solutions. Each
+                client and each engagement is given individual attention, including multiple options for structuring the
+                business relationship to support a flexible, long-term partnership.
+            </p>
+
+            <h5>our services include</h5>
+            <ul>
+                <li><a href="#">Custom Application Development</a></li>
+                <li><a href="#">e-Com solutions</a></li>
+                <li><a href="#">web Server maintenance</a></li>
+            </ul>
+        </div>
+
     </div>
-</nav>
 
-<div class="container">
-  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./pic/pic1.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./pic/pic2.jpeg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="./pic/pic3.jpeg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <footer>
+        <div>
+            <p>copyright (C) 2003-2017 nee software solutions (P) ltd.</p>
+        </div>
+    </footer>
 
-    <div class="fitem2">
-      <h1>heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, saepe iste provident aliquam ratione corporis quibusdam voluptate sint repellendus! Magnam repudiandae, at odit sint provident similique eos quasi perspiciatis cupiditate!</p>
-      </div>
-</div>
-</div id="para">
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cum amet modi provident nobis incidunt velit possimus corporis sed autem beatae deleniti neque sequi, officiis in vitae aspernatur quibusdam asperiores rem reprehenderit, alias saepe commodi ipsa. Tempora possimus temporibus ullam, officiis quia, iure incidunt doloribus accusantium ad amet ipsa optio eius fugiat voluptatum inventore eum minima labore assumenda! Mollitia vero nam possimus dolorem nesciunt, rem perferendis. Aspernatur veniam rerum corporis inventore nesciunt culpa harum ullam aut eum a voluptas asperiores animi, architecto minus vitae odio perferendis id numquam quod perspiciatis? Quasi aut, architecto odio similique eum commodi natus esse porro voluptatibus provident quae ipsam rem recusandae modi impedit at ratione rerum quaerat exercitationem. Similique vero nulla sequi, eum, pariatur explicabo provident maxime eius saepe quas assumenda fuga aut libero illum! Illo nisi expedita labore odit, accusantium incidunt assumenda magnam, pariatur non eveniet voluptates cupiditate. Minima non voluptatem enim rerum voluptates odit minus quos laborum, totam exercitationem laboriosam nobis rem dolore iste aliquam cumque autem perferendis commodi praesentium illum facilis fuga? Aliquid error eos consequuntur vitae ipsam accusamus, explicabo facere fugit natus aut quisquam cupiditate voluptate, adipisci in maxime corporis pariatur itaque. Id illo accusamus voluptatibus praesentium vel, nulla a sint!</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 </body>
-
-
-
-
-
-
-
