@@ -6,7 +6,8 @@ width:50px;
 .navbar{
 display:flex;
 position: sticky;
-top: 0px;}
+top: 0px;
+z-index: 10;}
 
 .f3{
 justify-content: flex-end;}
@@ -20,3 +21,29 @@ margin-left: 20px;
 margin-top: 10px;
 margin-left: 0px;}
 }
+
+.container{
+  position: relative;
+padding-bottom: 150px;
+/* border: 2px solid black; */
+
+}
+
+.fitem1{
+position:relative;
+top:50px;
+}
+
+.fitem2{
+background-color: whitesmoke;
+position:absolute;
+top:90%;
+width:90%;
+left:5%;
+right:5%;
+border-radius: 10px;
+margin-bottom: 50px;
+}
+
+
+
